@@ -4,8 +4,10 @@ WORKDIR /app
 
 COPY . .
 
-# Install system dependencies (IMPORTANT: GIT is required for your requirements.txt)
-RUN apt-get update && apt-get install -y git gcc libffi-dev libssl-dev && rm -rf /var/lib/apt/lists/*
+# Install system dependencies (IMPORTANT: GIT is required)
+RUN apt-get update && apt-get install -y \
+    git gcc libffi-dev libssl-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
