@@ -1,6 +1,6 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
-from pytgcalls.types.stream import StreamAudioEnded
+from pytgcalls.types import Update
 import yt_dlp
 
 api_id = 20955666  # Replace with your API ID
