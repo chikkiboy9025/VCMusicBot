@@ -1,2 +1,3 @@
 pyrogram==2.0.106
-git+https://github.com/pytgcalls/pytgcalls.git#egg=py-tgcalls
+pytgcalls @ git+https://github.com/pytgcalls/pytgcalls.git
+TgCrypto
