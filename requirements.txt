@@ -1,4 +1,4 @@
-git+https://github.com/pyrogram/pyrogram
+pyrogram
 git+https://github.com/pyrogram/tgcalls
 pytgcalls==0.5.2
 
